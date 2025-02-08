@@ -3,7 +3,6 @@ import { RoomComponent } from "@/components/room-component";
 import { Auth } from "@/components/auth";
 import LK from "@/components/lk";
 import Heart from "@/assets/heart.svg";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { defaultPresets } from "@/data/presets";
 import { Metadata } from "next";
 
