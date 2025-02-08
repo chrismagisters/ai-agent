@@ -21,7 +21,7 @@ export function TranscriptDrawer({ children }: TranscriptDrawerProps) {
               scrollButtonRef={scrollButtonRef}
             />
           </div>
-          <div className="absolute bottom-0 left-0 right-0 p-4">
+          <div className="absolute bottom-0 left-0 right-0 p-300">
             <button
               ref={scrollButtonRef}
               className="p-2 bg-white text-gray-500 rounded-full hover:bg-gray-100 transition-colors absolute right-4 bottom-4 shadow-md flex items-center"

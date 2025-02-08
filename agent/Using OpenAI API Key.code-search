@@ -1,0 +1,9 @@
+# Query: Using OpenAI API Key
+# ContextLines: 1
+
+1 result - 1 file
+
+web\src\components\auth.tsx:
+  52            <span className="font-semibold text-neutral-700">
+  53:             Hello world !
+  54            </span>

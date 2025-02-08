@@ -136,7 +136,7 @@ export function ConfigurationForm() {
     }, 500); // Adjust delay as needed
   }, [updateConfig]);
 
-  // Propagate form upates from the user
+  // Propagate form updates from the user
   useEffect(() => {
     if (form.formState.isValid && form.formState.isDirty) {
       dispatch({
@@ -196,3 +196,4 @@ export function ConfigurationForm() {
     </Form>
   );
 }
+

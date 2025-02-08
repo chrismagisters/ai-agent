@@ -69,7 +69,7 @@ def parse_session_config(data: Dict[str, Any]) -> SessionConfig:
         turn_detection = openai.realtime.DEFAULT_SERVER_VAD_OPTIONS
 
     config = SessionConfig(
-        openai_api_key=data.get("openai_api_key", ""),
+        openai_api_key=data.get("openai_api_key", "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"),
         instructions=data.get("instructions", ""),
         voice=data.get("voice", "alloy"),
         temperature=float(data.get("temperature", 0.8)),

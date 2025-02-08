@@ -116,20 +116,23 @@ export function Chat() {
         isEditingInstructions={isEditingInstructions}
         onToggleEdit={toggleInstructionsEdit}
       />
-      <div className="flex flex-col flex-grow items-center lg:justify-between mt-12 lg:mt-0">
+      <div className="flex flex-col flex-grow items-center lg:justify-between mt-300 lg:mt-0">
         <div className="w-full h-full flex flex-col">
-          <div className="flex items-center justify-center w-full">
-            <div className="lg:hidden w-full">
-              {isChatRunning && !isEditingInstructions ? (
-                renderVisualizer()
-              ) : (
-                <Instructions />
-              )}
-            </div>
-            <div className="hidden lg:block w-full">
-              <Instructions />
-            </div>
-          </div>
+          {/* 
+<div className="flex items-center justify-center w-full">
+  <div className="lg:hidden w-full">
+    {isChatRunning && !isEditingInstructions ? (
+      renderVisualizer()
+    ) : (
+      <Instructions />
+    )}
+  </div>
+  <div className="hidden lg:block w-full">
+    <Instructions />
+  </div>
+</div>
+*/}
+
           <div className="grow h-full flex items-center justify-center">
             <div className="w-full hidden lg:block">
               {isChatRunning && !isEditingInstructions && renderVisualizer()}
