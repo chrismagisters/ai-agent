@@ -1,0 +1,25 @@
+# Ignore Node.js dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Ignore build and cache directories
+.next
+dist
+build
+coverage
+
+# Ignore local environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Git-related files
+.git
+.gitignore

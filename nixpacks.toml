@@ -1,8 +1,17 @@
+[phases.setup]
+nixPkgs = ["python311"]  # Adjust the Python version if needed
+
 [phases.install]
-cmds = ["npm install"]
+cmds = [
+  "npm install",
+  "pip install -r requirements.txt"
+]
 
 [phases.build]
-cmds = ["npm run build"]
+cmds = [
+  "npm run build"
+]
 
 [start]
-cmd = "npm start"
+cmd = "npm start & python main.py"
+
